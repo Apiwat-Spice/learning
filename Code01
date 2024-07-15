@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main{
+public static void Main(String Args[]){
+Scanner sc = new Scanner(System.in);
+System.out.println("Number here : ");
+int num = sc.nextInt;
+num = num*-1;
+System.out.println("your invert : "+num);
+}}
+
+
