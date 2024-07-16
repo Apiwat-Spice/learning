@@ -2,10 +2,13 @@ import java.util.Scanner;
 public class Main{
 public static void Main(String Args[]){
 Scanner sc = new Scanner(System.in);
-System.out.println("Number here : ");
+System.out.println("Age here : ");
 int num = sc.nextInt;
+if(num<0){
 num = num*-1;
-System.out.println("your invert : "+num);
-}}
+}
+System.out.println("your Age : "+num);
+}
+}
 
 
